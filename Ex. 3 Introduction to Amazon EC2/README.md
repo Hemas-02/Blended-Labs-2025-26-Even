@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Hemalatha R
+* **Register Number**: 212224040114
+* **Date of Submission**: 18/11/2026
 
 ---
 
@@ -95,34 +95,36 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 ---
 
 ## Workflow (Student Explanation)
+```
+1. Launch EC2 Instance: Open AWS EC2, select Amazon Linux 2023, choose t2.micro, configure the key pair and launch the instance.
 
-(Write the steps you followed in your own words)
+2. Configure Network: Select Lab VPC, PublicSubnet1, enable public IP and create a security group to control network traffic.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+3. Monitor Instance: Check instance status, CloudWatch metrics, system logs and screenshots to monitor the health and performance of the EC2 instance.
 
----
+4. Access and Resize Web Server: Allow HTTP traffic through port 80, access the website using the public IP, and increase the instance type to t2.small and EBS storage to 10 GiB.
+
+5. Explore and Test Protection: Explore EC2 service quotas, test termination and stop protection, disable stop protection and stop the instance.
+
+```
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
+<img width="1917" height="1091" alt="image" src="https://github.com/user-attachments/assets/526d2c75-658e-40fe-8569-04a7f6f482a9" />
 
 ---
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+<img width="1917" height="1092" alt="Screenshot 2026-11-18 191902" src="https://github.com/user-attachments/assets/ad81a053-c9f6-4603-a423-1aab9bfbf2cb" />
 
 ---
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="1891" height="1153" alt="Screenshot 2026-11-18 192141" src="https://github.com/user-attachments/assets/4ca51944-ef13-4d71-bbb8-43b05b9cd594" />
 
 ---
 
