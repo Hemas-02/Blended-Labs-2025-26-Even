@@ -2,10 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
-
+* **Name**: Hemalatha R
+* **Register Number**: 212224040114
+* **Date of Submission**: 19/11/2026
 ---
 
 ## Objective
@@ -78,13 +77,14 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1.Created a 1 GiB EBS volume using General Purpose SSD (gp2).
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+2.Attached the volume to the Lab EC2 instance.
+
+3.Formatted the volume with ext3 and mounted it at /mnt/data-store.
+
+4.Created a file and took an EBS snapshot as a backup.
+
 
 ---
 
@@ -92,19 +92,19 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ### Screenshot 1: EBS Volume Created
 
-(Insert Screenshot Here)
+<img width="1600" height="825" alt="aws_screenshot_1_edited" src="https://github.com/user-attachments/assets/a3999fb5-3cb2-4ab6-9916-7db92c790602" />
 
 ---
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
+<img width="1570" height="842" alt="image" src="https://github.com/user-attachments/assets/f19ad7d2-7272-4dde-8de4-70a7f73942d8" />
 
 ---
 
 ### Screenshot 3: Mounted Volume with Data
 
-(Insert Screenshot Here)
+<img width="1600" height="870" alt="aws_screenshot_3_edited" src="https://github.com/user-attachments/assets/199d29ab-0d09-4869-bfd9-1cc989112995" />
 
 ---
 
