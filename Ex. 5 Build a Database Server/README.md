@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Hemalatha R
+* **Register Number**: 212224040114
+* **Date of Submission**: 20/11/2026
 
 ---
 
@@ -82,13 +82,13 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+### **Student Explanation – 5 Points**
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Created an Amazon RDS database using the MySQL engine.
+2. Configured the database instance with username, password and storage settings.
+3. Created a Multi-AZ deployment for better availability and durability.
+4. Configured VPC and security groups to allow database connectivity.
+5. Connected the web application to the RDS database and tested adding, editing and deleting contacts.
 
 ---
 
@@ -96,19 +96,20 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+<img width="1917" height="1091" alt="image" src="https://github.com/user-attachments/assets/2e6f10d7-fe78-4ae7-8d14-fb81797dbbd7" />
 
 ---
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+<img width="1917" height="1090" alt="Screenshot 2026-11-20 120352" src="https://github.com/user-attachments/assets/5d18d325-04cb-4361-aea3-6271449d1bfe" />
 
 ---
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1227" height="717" alt="image" src="https://github.com/user-attachments/assets/b5369bc3-503e-49eb-a5eb-04ab7c756f4f" />
+
 
 ---
 
